@@ -1,0 +1,41 @@
+/*general*/
+
+html,
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin:0;
+  padding: 0;
+}
+
+/*st-screen*/
+#st-screen{
+ background-color: orange;
+ height:100vh;
+ text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 40px;
+}
+
+/*nd-screen*/
+/* first row (nav)*/
+.navbar-light{
+  margin: 0px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+/* second row (input)*/
+.btn-default {
+  color: orange;
+}
+
+/* third row (map)*/
+iframe {
+  margin-top: 25px;
+}
