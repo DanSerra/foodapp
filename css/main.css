@@ -1,7 +1,5 @@
 /*general*/
-
-html,
-body {
+* {
   font-family: 'Quicksand', sans-serif;
   margin:0;
   padding: 0;
@@ -9,9 +7,12 @@ body {
 
 /*st-screen*/
 #st-screen{
- background-color: orange;
- height:100vh;
+ background: orange;
+ height:120vh;
  text-align: center;
+ margin:0;
+ padding: 0;
+ width: auto;
 }
 
 h1 {
@@ -29,7 +30,9 @@ h1 {
 
 .navbar-brand {
   font-size: 30px;
+  color: orange;
 }
+
 /* second row (input)*/
 .btn-default {
   color: orange;
