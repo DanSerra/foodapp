@@ -3,13 +3,13 @@
   font-family: 'Quicksand', sans-serif;
   margin:0;
   padding: 0;
+  text-align: center;
 }
 
 /*st-screen*/
 #st-screen{
  background: orange;
  height:120vh;
- text-align: center;
  margin:0;
  padding: 0;
  width: auto;
@@ -24,18 +24,11 @@ h1 {
 
 /*nd-screen*/
 /* first row (nav)*/
-.navbar-light{
-  margin: 0px;
-}
-
-.navbar-brand {
+.navbar{
   font-size: 30px;
   color: orange;
-}
-
-/* second row (input)*/
-.btn-default {
-  color: orange;
+  height: 50px;
+  margin-top: 30px;
 }
 
 /* third row (map)*/

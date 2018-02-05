@@ -1,51 +1,49 @@
-var data = [
-restaurante=
-   {
-   'Nombre': 'Pan Comido',
-   'Dirección': 'Tonalá 91',
-   'Rango': '$$$',
-   'Calificación': 4.3,
-   'Comida': 'Vegetariana',
-   'Imagen': '../assets/images/pancomido.jpg',
-   'Coordenadas': {
+var places = [
+{
+   'name': 'Pan Comido',
+   'address': 'Tonalá 91',
+   'rank': '$$$',
+   'food': 'Vegetariana',
+   'image': '../assets/images/pancomido.jpg',
+   'coordinates': {
      lng: ,
      lat: ,
    }
-   },
-restaurante=
-   {
-   'Nombre':'Nirvana Vegetariano'
-   'Dirección': 'Puebla 120',
-   'Rango': '$$$$',
-   'Calificaión': 5,
-   'Comida': 'Vegetariana'
-   'Imagen': '../assets/images/nirvana.jpg',
-   'Coordenadas': {
+},
+
+{
+   'name':'Nirvana Vegetariano'
+   'address': 'Puebla 120',
+   'rank': '$$$$',
+   'food': 'Vegetariana'
+   'image': '../assets/images/nirvana.jpg',
+   'coordinates': {
      lng: ,
      lat: ,
    }
-restaurante=
-  {
-    'Nombre': 'Delirio',
-    'Dirección': 'Monterrey 116',
-    'Rango': '$$$',
-    'Calificación': 3,
-    'Comida': 'Mediterranea'
-    'Imagen': '../assets/images/delirio.png',
-    'Coordenadas': {
+},
+
+{
+    'name': 'Delirio',
+    'address': 'Monterrey 116',
+    'rank': '$$$',
+    'food': 'Mediterranea'
+    'image': '../assets/images/delirio.png',
+    'coordinates': {
       lng: ,
       lat: ,
   }
-restaurante=
-    {
-      'Nombre': 'El cuento ruso',
-      'Dirección': 'Gral.Benjamín Hill 99',
-      'Rango': '$$$',
-      'Calificación': 3,
-      'comida': 'Rusa',
-      'Imagen': '../assets/images/rusa.jpg',
-      'Coordenadas': {
+},
+
+  {
+      'name': 'El cuento ruso',
+      'address': 'Gral.Benjamín Hill 99',
+      'rank': '$$',
+      'food': 'Rusa',
+      'image': '../assets/images/rusa.jpg',
+      'coordinates': {
         lng: ,
         lat: ,
     }
+},
   ]
